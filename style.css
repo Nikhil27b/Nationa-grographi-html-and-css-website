@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+    font-family: 'Roboto', sans-serif;
+    overflow: hidden;
+
+
+}
+
+.home {
+    background: url(./Mask\ Group\ 3.png);
+    background-size: cover;
+    height: 100vh;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 20px;
+}
+
+.logo img {
+    padding: 0 40px;
+    width: 80%;
+    height: 80%;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.navbar li {
+    padding: 10px 20px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.navbar ul li a:hover {
+    color: yellow;
+}
+
+
+
+.main-img img {
+    position: absolute;
+    right: 500px;
+}
+
+.mid h1 {
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    left: 280px;
+    top: 250px;
+}
+
+.mid img {
+    position: absolute;
+    left: 100px;
+    top: 250px;
+}
+
+.mid p {
+    color: white;
+    width: 700px;
+    margin-top: 340px;
+    position: absolute;
+    text-align: center;
+    margin-left: 300px;
+}
+
+.last {
+    display: flex;
+    justify-content: space-between;
+    margin-top: -80px;
+}
+
+.right {
+    display: flex;
+    padding: 20px 40px;
+}
+
+.right h4 {
+    color: white;
+    font-size: 20px;
+    padding: 8px 20px;
+}
+
+.right img {
+    height: 40px;
+    width: 40px;
+    background-color: yellow;
+    align-items: center;
+}
